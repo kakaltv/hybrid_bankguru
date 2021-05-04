@@ -1,4 +1,4 @@
-package pageUIs;
+package pageUIsliveguru;
 
 public class RegisterPageUI {
 
