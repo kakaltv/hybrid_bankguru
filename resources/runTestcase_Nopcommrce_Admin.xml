@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
+<suite name="Admin - Nop Commerce" parallel="false">
+
+	<listeners>
+		<!-- <listener class-name = "commons.MethodListener" /> -->
+		<!-- <listener class-name = "org.uncommons.reportng.HTMLReporter" />
+		<listener class-name = "org.uncommons.reportng.JUnitXMLReporter" /> -->
+		<listener class-name="reportConfig.AllureTestListener" />
+	</listeners>
+	
 	<parameter name="url" value="https://admin-demo.nopcommerce.com/" />
 
-	<test name="Run on Firefox">
+<!--  	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.admin.Level_10_Admin_Upload_File" />
+			<class name="com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report" />
 		</classes>
-	</test>
+	</test> -->
 
-<!--  	<test name="Run on Chrome">
+  	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.login.Level_02_Register_Login_Multiple_Browser" />
+			<class name="com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report" />
 		</classes>
 	</test>
-
+<!-- 
 	<test name="Run on Edge">
 		<parameter name="browser" value="edge" />
 		<classes>

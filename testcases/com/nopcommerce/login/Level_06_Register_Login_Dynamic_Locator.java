@@ -90,7 +90,7 @@ public class Level_06_Register_Login_Dynamic_Locator extends BaseTest{
 		System.out.println(homePage.hashCode());
 
 		// Step 5: Verify Homepage logo displayed
-		Assert.assertTrue(homePage.isHomePageSliderDisplayed());
+		Assert.assertFalse(homePage.isHomePageSliderDisplayed());
 
 	}
 

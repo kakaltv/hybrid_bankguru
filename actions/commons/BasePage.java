@@ -15,11 +15,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObject.nopCommerce.Admin.SearchProductPageObject;
 import pageObject.nopCommerce.User.MyAccountPageObject;
 import pageObject.nopCommerce.User.MyOrderPageObject;
 import pageObject.nopCommerce.User.PageGeneratorManager;
 import pageObject.nopCommerce.User.SearchPageObject;
-import pageUIsnopCommerceUser.BasePageUI;
+import pageUIs.nopCommerce.Admin.BasePageUIAdmin;
+import pageUIsnopCommerceUser.BasePageUIUser;
 
 public class BasePage {
 
@@ -166,6 +168,10 @@ public class BasePage {
 		return driver.findElement(getByXpath(locator));
 	}
 
+	public WebElement getElement(WebDriver driver, String locator, String... params) {
+		return driver.findElement(getByXpath(getDynamicLocator(locator, params)));
+	}
+
 	public List<WebElement> getElements(WebDriver driver, String locator) {
 		return driver.findElements(getByXpath(locator));
 	}
@@ -200,7 +206,7 @@ public class BasePage {
 	public int getElementSize(WebDriver driver, String locator) {
 		return getElements(driver, locator).size();
 	}
-	
+
 	public int getElementSize(WebDriver driver, String locator, String... params) {
 		locator = getDynamicLocator(locator, params);
 		return getElements(driver, locator).size();
@@ -245,6 +251,11 @@ public class BasePage {
 
 	public String getElementAttribute(WebDriver driver, String locator, String attName) {
 		return getElement(driver, locator).getAttribute(attName);
+
+	}
+
+	public String getElementAttribute(WebDriver driver, String locator, String attName, String... params) {
+		return getElement(driver, getDynamicLocator(locator, params)).getAttribute(attName);
 
 	}
 
@@ -317,7 +328,7 @@ public class BasePage {
 		action = new Actions(driver);
 		action.dragAndDrop(getElement(driver, sourceLocator), getElement(driver, targetLocator)).perform();
 	}
-	
+
 	public void pressKeyToElement(WebDriver driver, String locator, Keys key) {
 		action = new Actions(driver);
 		action.sendKeys(getElement(driver, locator), key).perform();
@@ -466,28 +477,28 @@ public class BasePage {
 	private JavascriptExecutor jsExecutor;
 
 	public SearchPageObject openSearchPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.SEARCH_PAGE_FOOTER_LINK);
-		clickToElement(driver, BasePageUI.SEARCH_PAGE_FOOTER_LINK);
+		waitForElementVisible(driver, BasePageUIUser.SEARCH_PAGE_FOOTER_LINK);
+		clickToElement(driver, BasePageUIUser.SEARCH_PAGE_FOOTER_LINK);
 		return PageGeneratorManager.getSearchPage(driver);
 	}
 
 	public MyAccountPageObject openMyAccountPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.MY_ACCOUNT_PAGE_FOOTER_LINK);
-		clickToElement(driver, BasePageUI.MY_ACCOUNT_PAGE_FOOTER_LINK);
+		waitForElementVisible(driver, BasePageUIUser.MY_ACCOUNT_PAGE_FOOTER_LINK);
+		clickToElement(driver, BasePageUIUser.MY_ACCOUNT_PAGE_FOOTER_LINK);
 		return PageGeneratorManager.getMyAccountPage(driver);
 	}
 
 	public MyOrderPageObject openMyOrderPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.MY_ORDER_PAGE_FOOTER_LINK);
-		clickToElement(driver, BasePageUI.MY_ORDER_PAGE_FOOTER_LINK);
+		waitForElementVisible(driver, BasePageUIUser.MY_ORDER_PAGE_FOOTER_LINK);
+		clickToElement(driver, BasePageUIUser.MY_ORDER_PAGE_FOOTER_LINK);
 		return PageGeneratorManager.getMyOrderPage(driver);
 	}
 
 	// 1 hàm cho 20 pages sử dụng dynamic locator
 	// Case 1: Số page < 10
 	public BasePage getFooterPageByPageName(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_FOOTER_LINK, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_FOOTER_LINK, pageName);
+		waitForElementVisible(driver, BasePageUIUser.DYNAMIC_PAGE_FOOTER_LINK, pageName);
+		clickToElement(driver, BasePageUIUser.DYNAMIC_PAGE_FOOTER_LINK, pageName);
 		switch (pageName) {
 		case "Search":
 			return PageGeneratorManager.getSearchPage(driver);
@@ -502,8 +513,28 @@ public class BasePage {
 
 	// Case 2: Multiple Pages
 	public void openFooterPageByPageName(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_FOOTER_LINK, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_FOOTER_LINK, pageName);
+		waitForElementVisible(driver, BasePageUIUser.DYNAMIC_PAGE_FOOTER_LINK, pageName);
+		clickToElement(driver, BasePageUIUser.DYNAMIC_PAGE_FOOTER_LINK, pageName);
 
 	}
+
+	// nop-commerce admin
+	public void openSubMenuPage(WebDriver driver, String menuPageName, String subMenuPageName) {
+		waitForElementVisible(driver, BasePageUIAdmin.MENU_LINK_BY_NAME, menuPageName);
+		clickToElement(driver, BasePageUIAdmin.MENU_LINK_BY_NAME, menuPageName);
+		waitForElementVisible(driver, BasePageUIAdmin.SUB_MENU_LINK_BY_NAME,subMenuPageName);
+		clickToElement(driver, BasePageUIAdmin.SUB_MENU_LINK_BY_NAME,subMenuPageName);
+	}
+
+	public void uploadFilesByCardName(WebDriver driver, String cardName, String... fileNames) {
+		String filePath = GlobalConstants.UPLOAD_FOLDER_PATH;
+		String fullFileName = "";
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		System.out.println(fullFileName);
+		getElement(driver, BasePageUIAdmin.UPLOAD_PRODUCT_BY_CARD_NAME, cardName).sendKeys(fullFileName);
+	}
+
 }

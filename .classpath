@@ -6,8 +6,6 @@
 	<classpathentry kind="src" path="interfaces"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar"/>
-	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/commons-codec-1.13.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/commons-collections4-4.3.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/commons-compress-1.20.jar"/>
@@ -20,5 +18,44 @@
 	<classpathentry kind="lib" path="libWebDriverManager/jsoup-1.13.1.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/webdrivermanager-4.2.0.jar"/>
+	<classpathentry kind="lib" path="libSelenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="libSelenium/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="libLog4J/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="libLog4J/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="libLog4J/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="libLog4J/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libLog4J/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="libReportTestNG/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libReportTestNG/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libReportTestNG/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="libReportTestNG/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="libExtentReportVersion2/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/allure-java-commons-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/allure-model-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/allure-testng-2.13.5.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/aspectjlib-1.6.2.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/aspectjrt-1.8.10.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/aspectjtools-1.8.10.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/aspectjweaver-1.8.10.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/joor-java-8-0.9.10.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libAllureReport/tika-core-1.20.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

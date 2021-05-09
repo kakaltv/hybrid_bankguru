@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,7 +21,16 @@ public class BaseTest {
 	private enum BROWSER {
 		CHROME, FIREFOX, IE, SAFARI, CHEADLESS, FHEADLESS, EDGE;
 	}
+	
+	// Define log variable
+	protected final Log log;
 
+	// Constructor
+	protected BaseTest() {
+		// Init log
+		log = LogFactory.getLog(getClass());
+	}
+	
 	protected WebDriver getBrowser(String browserName, String url) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 
@@ -31,6 +42,7 @@ public class BaseTest {
 		} else if (browser == BROWSER.CHROME) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			driver.manage().window().maximize();
 		} else if (browser == BROWSER.EDGE) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
@@ -40,6 +52,10 @@ public class BaseTest {
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(url);
+		return driver;
+	}
+	
+	public WebDriver getDriver() {
 		return driver;
 	}
 

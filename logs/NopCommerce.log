@@ -1,0 +1,181 @@
+[INFO ] [2021-05-09 08:59:08,587] Login - 1. Enter email
+[INFO ] [2021-05-09 08:59:09,213] Login - 2. Enter Password
+[INFO ] [2021-05-09 08:59:09,534] Login - 3. Click Login button
+[INFO ] [2021-05-09 08:59:24,075] Login - 4. Open sub menu
+[INFO ] [2021-05-09 08:59:28,207] Search Product - 5. Enter product name: Adobe Photoshop CS4
+[INFO ] [2021-05-09 08:59:28,647] Search Product - 6. Click Search button
+[INFO ] [2021-05-09 08:59:28,878] Search Product - 7. Click Edit button
+[INFO ] [2021-05-09 08:59:44,829] Product Details - 8. Click expand panal by name
+[INFO ] [2021-05-09 08:59:47,603] Product Details - 9. Upload File by card name
+[INFO ] [2021-05-09 08:59:47,832] Product Details - 10. Verify Picture upload successfully
+[INFO ] [2021-05-09 08:59:53,095] Product Details - 11. Enter to alt textbox: Img Alt
+[INFO ] [2021-05-09 08:59:53,572] Product Details - 12. Enter to Title textbox: Img Title
+[INFO ] [2021-05-09 08:59:54,018] Product Details - 13. Enter Order textbox: 1
+[INFO ] [2021-05-09 08:59:54,336] Product Details - 14. Click Add Product Button
+[INFO ] [2021-05-09 08:59:54,544] Product Details - 15. Verify Image uploaded
+[INFO ] [2021-05-09 08:59:55,882] Product Details - 16. Click Save button
+[INFO ] [2021-05-09 08:59:58,417] Product Details - 17. Verify success message displayed
+[INFO ] [2021-05-09 08:59:58,577] Search Product - 18. Enter product name: Adobe Photoshop CS4
+[INFO ] [2021-05-09 08:59:58,896] Search Product - 19. Click to Search button 
+[INFO ] [2021-05-09 08:59:59,100] Search Product - 20. Verify image displayed
+[INFO ] [2021-05-09 08:59:59,646] Product Details - 21. Click Edit button
+[INFO ] [2021-05-09 09:00:02,764] Product Details - 22. Expand Panel Pictures
+[INFO ] [2021-05-09 09:00:04,540] Product Details - 23. Click Delete button at Img Title
+[INFO ] [2021-05-09 09:00:04,860] Product Details - 24. Verify No Data message displayed
+[INFO ] [2021-05-09 09:01:52,805] Login - 1. Enter email
+[INFO ] [2021-05-09 09:01:53,262] Login - 2. Enter Password
+[INFO ] [2021-05-09 09:01:53,576] Login - 3. Click Login button
+[INFO ] [2021-05-09 09:01:57,097] Login - 4. Open sub menu
+[INFO ] [2021-05-09 09:01:59,482] Search Product - 5. Enter product name: Adobe Photoshop CS4
+[INFO ] [2021-05-09 09:01:59,965] Search Product - 6. Click Search button
+[INFO ] [2021-05-09 09:02:00,219] Search Product - 7. Click Edit button
+[INFO ] [2021-05-09 09:02:02,544] Product Details - 8. Click expand panal by name
+[INFO ] [2021-05-09 09:02:05,276] Product Details - 9. Upload File by card name
+[INFO ] [2021-05-09 09:02:05,409] Product Details - 10. Verify Picture upload successfully
+[INFO ] [2021-05-09 09:02:11,263] Product Details - 11. Enter to alt textbox: Img Alt
+[INFO ] [2021-05-09 09:02:11,722] Product Details - 12. Enter to Title textbox: Img Title
+[INFO ] [2021-05-09 09:02:12,139] Product Details - 13. Enter Order textbox: 1
+[INFO ] [2021-05-09 09:02:12,462] Product Details - 14. Click Add Product Button
+[INFO ] [2021-05-09 09:02:12,677] Product Details - 15. Verify Image uploaded
+[INFO ] [2021-05-09 09:02:15,156] Product Details - 16. Click Save button
+[INFO ] [2021-05-09 09:02:18,854] Product Details - 17. Verify success message displayed
+[INFO ] [2021-05-09 09:02:19,026] Search Product - 18. Enter product name: Adobe Photoshop CS4
+[INFO ] [2021-05-09 09:02:19,432] Search Product - 19. Click to Search button 
+[INFO ] [2021-05-09 09:02:19,633] Search Product - 20. Verify image displayed
+[INFO ] [2021-05-09 09:02:20,963] Product Details - 21. Click Edit button
+[INFO ] [2021-05-09 09:02:24,501] Product Details - 22. Expand Panel Pictures
+[INFO ] [2021-05-09 09:02:25,793] Product Details - 23. Click Delete button at Img Title
+[INFO ] [2021-05-09 09:02:26,095] Product Details - 24. Verify No Data message displayed
+[INFO ] [2021-05-09 10:31:16,067] Login - 1. Enter email
+ com.nopcommerce.admin.Level_10_Admin_Upload_File[INFO ] [2021-05-09 10:31:16,490] Login - 2. Enter Password
+ com.nopcommerce.admin.Level_10_Admin_Upload_File[INFO ] [2021-05-09 10:31:16,784] Login - 3. Click Login button
+ com.nopcommerce.admin.Level_10_Admin_Upload_File[INFO ] [2021-05-09 10:31:22,396] Login - 4. Open sub menu
+ com.nopcommerce.admin.Level_10_Admin_Upload_File2021-05-09 10:32:21,189 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:32:21,691 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:32:22,025 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:32:27,363 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 10:32:55,804 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:32:56,253 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:32:56,615 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:33:01,768 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 10:33:04,884 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 5. Enter product name: Adobe Photoshop CS4
+2021-05-09 10:33:05,602 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 6. Click Search button
+2021-05-09 10:33:05,975 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 7. Click Edit button
+2021-05-09 10:40:18,613 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:40:18,799 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:40:18,930 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:40:24,109 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 10:40:52,505 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:40:52,688 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:40:52,855 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:41:24,227 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:41:24,447 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:41:24,586 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:42:03,400 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:42:03,585 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:42:03,739 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:43:01,165 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:43:01,333 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:43:01,497 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:43:10,990 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 10:55:30,350 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 10:55:30,522 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 10:55:30,663 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 10:55:34,619 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 10:55:35,974 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 5. Enter product name: Adobe Photoshop CS4
+2021-05-09 10:55:36,182 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 6. Click Search button
+2021-05-09 10:55:36,281 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 7. Click Edit button
+2021-05-09 10:55:39,042 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 8. Click expand panal by name
+2021-05-09 10:55:39,379 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 9. Upload File by card name
+2021-05-09 10:55:39,728 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 10. Verify Picture upload successfully
+2021-05-09 10:55:47,963 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 11. Enter to alt textbox: Img Alt
+2021-05-09 10:55:48,148 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 12. Enter to Title textbox: Img Title
+2021-05-09 10:55:48,373 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 13. Enter Order textbox: 1
+2021-05-09 10:55:48,533 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 14. Click Add Product Button
+2021-05-09 10:55:48,665 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 15. Verify Image uploaded
+2021-05-09 10:55:49,964 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 16. Click Save button
+2021-05-09 10:55:51,466 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 17. Verify success message displayed
+2021-05-09 10:55:51,551 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 18. Enter product name: Adobe Photoshop CS4
+2021-05-09 10:55:51,713 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 19. Click to Search button 
+2021-05-09 10:55:51,865 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 20. Verify image displayed
+2021-05-09 10:55:53,494 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 21. Click Edit button
+2021-05-09 10:55:55,237 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 22. Expand Panel Pictures
+2021-05-09 10:55:55,809 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 23. Click Delete button at Img Title
+2021-05-09 10:55:56,023 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Product Details - 24. Verify No Data message displayed
+2021-05-09 10:55:56,894 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 25. Click Save button
+2021-05-09 10:55:59,434 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 26. Enter Product name: Adobe Photoshop CS4
+2021-05-09 10:55:59,642 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 27. Click Search button
+2021-05-09 10:55:59,765 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Search Product - 28. Verify Image displayed
+2021-05-09 11:10:11,500 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 11:10:11,717 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 11:10:11,819 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 11:10:17,141 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 11:10:56,009 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 11:14:08,984 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 11:14:09,136 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 2. Enter Password
+2021-05-09 11:14:09,236 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 3. Click Login button
+2021-05-09 11:14:13,201 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 4. Open sub menu
+2021-05-09 11:14:49,301 INFO  com.nopcommerce.admin.Level_10_Admin_Upload_File - Login - 1. Enter email
+2021-05-09 14:31:31,609 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 14:31:32,017 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 2. Enter Password
+2021-05-09 14:31:32,129 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 3. Click Login button
+2021-05-09 14:31:35,233 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 4. Open sub menu
+2021-05-09 14:32:11,486 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 14:38:26,109 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 14:38:26,324 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 2. Enter Password
+2021-05-09 14:38:26,439 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 3. Click Login button
+2021-05-09 14:38:29,546 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 4. Open sub menu
+2021-05-09 14:39:05,069 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 15:21:25,964 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 15:21:26,166 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 2. Enter Password
+2021-05-09 15:21:26,270 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 3. Click Login button
+2021-05-09 15:21:29,666 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 4. Open sub menu
+2021-05-09 15:22:05,911 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 15:23:33,205 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 15:23:33,468 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 2. Enter Password
+2021-05-09 15:23:33,616 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 3. Click Login button
+2021-05-09 15:23:38,102 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 4. Open sub menu
+2021-05-09 15:23:40,850 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 5. Enter product name: Adobe Photoshop CS4
+2021-05-09 15:23:41,046 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 6. Click Search button
+2021-05-09 15:23:41,174 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 7. Click Edit button
+2021-05-09 15:23:44,806 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 8. Click expand panal by name
+2021-05-09 15:23:45,010 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 9. Upload File by card name
+2021-05-09 15:23:45,080 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 10. Verify Picture upload successfully
+2021-05-09 15:23:49,215 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 11. Enter to alt textbox: Img Alt
+2021-05-09 15:23:49,496 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 12. Enter to Title textbox: Img Title
+2021-05-09 15:23:49,735 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 13. Enter Order textbox: 1
+2021-05-09 15:23:49,902 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 14. Click Add Product Button
+2021-05-09 15:23:50,039 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 15. Verify Image uploaded
+2021-05-09 15:23:52,934 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 16. Click Save button
+2021-05-09 15:23:55,861 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 17. Verify success message displayed
+2021-05-09 15:23:55,949 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 18. Enter product name: Adobe Photoshop CS4
+2021-05-09 15:23:56,111 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 19. Click to Search button 
+2021-05-09 15:23:56,232 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 20. Verify image displayed
+2021-05-09 15:23:57,493 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 21. Click Edit button
+2021-05-09 15:23:58,899 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 22. Expand Panel Pictures
+2021-05-09 15:23:59,453 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 23. Click Delete button at Img Title
+2021-05-09 15:24:00,067 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 24. Verify No Data message displayed
+2021-05-09 15:26:46,006 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 1. Enter email
+2021-05-09 15:26:46,188 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 2. Enter Password
+2021-05-09 15:26:46,353 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 3. Click Login button
+2021-05-09 15:26:50,870 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Login - 4. Open sub menu
+2021-05-09 15:26:52,256 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 5. Enter product name: Adobe Photoshop CS4
+2021-05-09 15:26:52,457 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 6. Click Search button
+2021-05-09 15:26:52,560 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 7. Click Edit button
+2021-05-09 15:26:55,229 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 8. Click expand panal by name
+2021-05-09 15:26:56,023 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 9. Upload File by card name
+2021-05-09 15:26:56,081 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 10. Verify Picture upload successfully
+2021-05-09 15:27:00,315 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 11. Enter to alt textbox: Img Alt
+2021-05-09 15:27:00,518 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 12. Enter to Title textbox: Img Title
+2021-05-09 15:27:00,725 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 13. Enter Order textbox: 1
+2021-05-09 15:27:00,900 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 14. Click Add Product Button
+2021-05-09 15:27:01,006 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 15. Verify Image uploaded
+2021-05-09 15:27:02,179 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 16. Click Save button
+2021-05-09 15:27:03,742 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 17. Verify success message displayed
+2021-05-09 15:27:03,840 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 18. Enter product name: Adobe Photoshop CS4
+2021-05-09 15:27:04,033 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 19. Click to Search button 
+2021-05-09 15:27:04,147 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Search Product - 20. Verify image displayed
+2021-05-09 15:27:04,639 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 21. Click Edit button
+2021-05-09 15:27:05,514 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 22. Expand Panel Pictures
+2021-05-09 15:27:06,569 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 23. Click Delete button at Img Title
+2021-05-09 15:27:06,755 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 24. Verify No Data message displayed
