@@ -21,7 +21,7 @@ public class BaseTest {
 	private enum BROWSER {
 		CHROME, FIREFOX, IE, SAFARI, CHEADLESS, FHEADLESS, EDGE;
 	}
-	
+
 	// Define log variable
 	protected final Log log;
 
@@ -30,7 +30,7 @@ public class BaseTest {
 		// Init log
 		log = LogFactory.getLog(getClass());
 	}
-	
+
 	protected WebDriver getBrowser(String browserName, String url) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 
@@ -54,7 +54,7 @@ public class BaseTest {
 		driver.get(url);
 		return driver;
 	}
-	
+
 	public WebDriver getDriver() {
 		return driver;
 	}
@@ -84,5 +84,59 @@ public class BaseTest {
 	public static String getDirectorySlash(String folderName) {
 		String separator = File.separator;
 		return separator + folderName + separator;
+	}
+
+	protected void closeBrowserAndDriver(WebDriver driver) {
+		try {
+			// Get ra tên của OS và convert qua chữ thường
+			String osName = System.getProperty("os.name").toLowerCase();
+			log.info("OS name = " + osName);
+			System.out.println("------------- OS name = " + osName);
+			System.out.println("------------- 00");
+			System.out.println("------------- driver name = " + driver.toString().toLowerCase());
+			System.out.println("------------- 0");
+			
+			// Khai báo 1 biến command line để thực thi
+			String cmd = "";
+			if (driver != null) {
+				System.out.println("------------- 0");
+				driver.quit();
+			}
+
+			// Quit driver executable file in Task Manager
+			if (driver.toString().toLowerCase().contains("chrome")) {
+				System.out.println("------------- 0.1");
+				if (osName.toLowerCase().contains("mac")) {
+					cmd = "pkill chromedriver";
+				} else if (osName.toLowerCase().contains("windows")) {
+					System.out.println("------------- 1");
+					cmd = "taskkill /F /FI \"IMAGENAME eq chromedriver*\"";
+					System.out.println("------------- 2");
+				}
+			} else if (driver.toString().toLowerCase().contains("internetexplorer")) {
+				if (osName.toLowerCase().contains("window")) {
+					cmd = "taskkill /F /FI \"IMAGENAME eq IEDriverServer*\"";
+				}
+			} else if (driver.toString().toLowerCase().contains("firefox")) {
+				if (osName.toLowerCase().contains("mac")) {
+					cmd = "pkill geckodriver";
+				} else if (osName.toLowerCase().contains("windows")) {
+					cmd = "taskkill /F /FI \"IMAGENAME eq geckodriver*\"";
+				}
+			} else if (driver.toString().toLowerCase().contains("edge")) {
+				if (osName.toLowerCase().contains("mac")) {
+					cmd = "pkill msedgedriver";
+				} else if (osName.toLowerCase().contains("windows")) {
+					cmd = "taskkill /F /FI \"IMAGENAME eq msedgedriver*\"";
+				}
+			}
+
+			Process process = Runtime.getRuntime().exec(cmd);
+			process.waitFor();
+
+			log.info("---------- QUIT BROWSER SUCCESS ----------");
+		} catch (Exception e) {
+			log.info(e.getMessage());
+		}
 	}
 }

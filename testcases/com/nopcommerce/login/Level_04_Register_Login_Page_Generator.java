@@ -16,7 +16,7 @@ import pageObject.nopCommerce.User.LoginPageObject;
 import pageObject.nopCommerce.User.PageGeneratorManager;
 import pageObject.nopCommerce.User.RegisterPageObject;
 
-public class Level_04_Register_Login_Page_Generator extends BaseTest{
+public class Level_04_Register_Login_Page_Generator extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	String email, password;
@@ -35,7 +35,7 @@ public class Level_04_Register_Login_Page_Generator extends BaseTest{
 		// Step 1: Mở URL -> Home page
 		homePage = PageGeneratorManager.getHomePage(driver);
 		System.out.println(homePage.hashCode());
-		
+
 		// Step 2: Verify Home Page Slider displayed
 		Assert.assertTrue(homePage.isHomePageSliderDisplayed());
 
@@ -75,7 +75,7 @@ public class Level_04_Register_Login_Page_Generator extends BaseTest{
 	@Test
 	public void Login_02_Login() {
 		// Step 1: Click to Login link
-		loginPage=homePage.clickToLoginLink();
+		loginPage = homePage.clickToLoginLink();
 
 		// Step 2: enter to email textbox
 		loginPage.enterToEmailTextbox(email);
@@ -84,7 +84,7 @@ public class Level_04_Register_Login_Page_Generator extends BaseTest{
 		loginPage.enterToPasswordTextbox(password);
 
 		// Step 4: click to Login button -> Home page
-		homePage=loginPage.clickToLoginButton();
+		homePage = loginPage.clickToLoginButton();
 		System.out.println(homePage.hashCode());
 
 		// Step 5: Verify Homepage logo displayed

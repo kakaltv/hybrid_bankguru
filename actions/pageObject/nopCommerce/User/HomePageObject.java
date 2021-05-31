@@ -16,7 +16,9 @@ public class HomePageObject extends BasePage{
 	
 	@Step("Step 2: Verify Home Page Slider displayed")
 	public boolean isHomePageSliderDisplayed() {
+		System.out.println("5. " + driver);
 		waitForElementVisible(driver, HomePageUI.HOME_PAGE_SLIDER);
+		System.out.println("6. " + driver);
 		return isElementDisplayed(driver, HomePageUI.HOME_PAGE_SLIDER);
 	}
 

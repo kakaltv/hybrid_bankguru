@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import pageFactoryNopcommerce.*;
 
-public class Level_03_Register_Login_Page_Factory extends BaseTest{
+public class Level_03_Register_Login_Page_Factory extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	String email, password;
@@ -28,7 +28,7 @@ public class Level_03_Register_Login_Page_Factory extends BaseTest{
 	public void Login_01_Register() {
 		// Step 1: Mở URL -> Home page
 		homePage = new HomePageObject(driver);
-		
+
 		// Step 2: Verify Home Page Slider displayed
 		Assert.assertTrue(homePage.isHomePageSliderDisplayed());
 

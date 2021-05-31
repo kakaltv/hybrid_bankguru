@@ -32,7 +32,7 @@ public class Level_01_Register_Login_BasePage {
 		// Step 1: Mở URL -> Home page
 		driver.get("https://demo.nopcommerce.com/");
 		homePage = new HomePageObject(driver);
-		
+
 		// Step 2: Verify Home Page Slider displayed
 		Assert.assertTrue(homePage.isHomePageSliderDisplayed());
 

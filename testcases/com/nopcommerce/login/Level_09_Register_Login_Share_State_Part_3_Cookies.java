@@ -2,6 +2,7 @@ package com.nopcommerce.login;
 
 import java.util.Random;
 
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -10,6 +11,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.nopcommerce.common.Common_01_Register_New_User;
+import com.nopcommerce.common.Common_02_Cookies;
 
 import commons.BaseTest;
 import pageObject.nopCommerce.User.HomePageObject;
@@ -20,44 +22,38 @@ import pageObject.nopCommerce.User.PageGeneratorManager;
 import pageObject.nopCommerce.User.RegisterPageObject;
 import pageObject.nopCommerce.User.SearchPageObject;
 
-public class Level_07_Register_Login_Share_State_Part_1_Search extends BaseTest {
+public class Level_09_Register_Login_Share_State_Part_3_Cookies extends BaseTest {
 	WebDriver driver;
-	String projectPath = System.getProperty("user.dir");
-	String email, password;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String url) {
 		driver = getBrowser(browserName, url);
 		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = new HomePageObject(driver);
+
+		for(Cookie cookie : Common_02_Cookies.allCookies) {
+			driver.manage().addCookie(cookie);
+		}
 		
-		// Step 1: Click to Login link
-		loginPage = homePage.clickToLoginLink();
-
-		// Step 2: enter to email textbox
-		loginPage.enterToEmailTextbox(Common_01_Register_New_User.email);
-
-		// Step 3: enter to password textbox
-		loginPage.enterToPasswordTextbox(Common_01_Register_New_User.password);
-
-		// Step 4: click to Login button -> Home page
-		homePage = loginPage.clickToLoginButton();
-
+		homePage.refreshPage(driver);
+		
 		// Step 5: Verify Homepage logo displayed
-		Assert.assertTrue(homePage.isHomePageSliderDisplayed());	}
+		Assert.assertTrue(homePage.isHomePageSliderDisplayed());
+	}
 
 	@Test
-	public void TC_01_Search_Product_By_Name() {
+	public void TC_01_Sort_Product_By_Name() {
 
 	}
 
 	@Test
-	public void TC_02_Search_Product_By_Sub_Category() {
+	public void TC_02_Sort_Product_By_Sub_Category() {
 
 	}
 
 	@Test
-	public void TC_03_Search_Product_By_Price() {
+	public void TC_03_Sort_Product_By_Price() {
 
 	}
 

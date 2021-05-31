@@ -179,3 +179,25 @@
 2021-05-09 15:27:05,514 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 22. Expand Panel Pictures
 2021-05-09 15:27:06,569 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 23. Click Delete button at Img Title
 2021-05-09 15:27:06,755 INFO  com.nopcommerce.admin.Level_11_Admin_Upload_File_Allure_Report - Product Details - 24. Verify No Data message displayed
+2021-05-16 07:22:47,758 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:22:47,759 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:22:47,800 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - OS name = windows 10
+2021-05-16 07:22:47,800 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - 
+2021-05-16 07:23:31,904 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:23:31,905 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:23:31,946 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - OS name = windows 10
+2021-05-16 07:23:31,946 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - 
+2021-05-16 07:28:52,321 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:28:52,335 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:28:52,383 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - OS name = windows 10
+2021-05-16 07:28:52,386 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2 - 
+2021-05-16 07:30:33,619 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:30:33,620 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:32:25,204 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:32:25,205 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:34:57,259 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:34:57,260 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:36:10,273 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:36:10,274 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - 
+2021-05-16 07:38:08,761 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - OS name = windows 10
+2021-05-16 07:38:09,669 INFO  com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1 - ---------- QUIT BROWSER SUCCESS ----------

@@ -11,6 +11,8 @@ encoding//actions/pageObject/nopCommerce/User/PageGeneratorManager.java=UTF-8
 encoding//interfaces/pageUIs/DataTable/HomePageUI.java=UTF-8
 encoding//interfaces/pageUIsnopCommerceUser/HomePageUI.java=UTF-8
 encoding//testcases/com/jquery/datatable/Level_09_DataTable.java=UTF-8
+encoding//testcases/com/nopcommerce/common/Common_01_Register_New_User.java=UTF-8
+encoding//testcases/com/nopcommerce/common/Common_02_Cookies.java=UTF-8
 encoding//testcases/com/nopcommerce/login/Level_01_Register_Login_BasePage.java=UTF-8
 encoding//testcases/com/nopcommerce/login/Level_02_Register_Login_Multiple_Browser.java=UTF-8
 encoding//testcases/com/nopcommerce/login/Level_03_Register_Login_Page_Factory.java=UTF-8
@@ -19,3 +21,6 @@ encoding//testcases/com/nopcommerce/login/Level_05_Register_Login_Switch_Page.ja
 encoding//testcases/com/nopcommerce/login/Level_06_Register_Login_Dynamic_Locator.java=UTF-8
 encoding//testcases/com/nopcommerce/login/Level_07_Register_Login_Share_State_Part_1_Search.java=UTF-8
 encoding//testcases/com/nopcommerce/login/Level_08_Register_Login_Share_State_Part_2_Sort.java=UTF-8
+encoding//testcases/com/nopcommerce/login/Level_09_Register_Login_Share_State_Part_3_Cookies.java=UTF-8
+encoding//testcases/com/nopcommerce/login/Level_10_Register_Login_Close_Browser_Part_1.java=UTF-8
+encoding//testcases/com/nopcommerce/login/Level_10_Register_Login_Close_Browser_Part_2.java=UTF-8

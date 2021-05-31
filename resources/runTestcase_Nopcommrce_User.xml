@@ -10,19 +10,37 @@
 
 	<parameter name="url" value="https://demo.nopcommerce.com/" />
 
-<!--  	<test name="Run on Firefox">
+  	<!-- <test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
+			<class name="com.nopcommerce.common.Common_01_Register_New_User" />
 			<class name="com.nopcommerce.login.Level_07_Register_Login_Share_State_Part_1_Search" />
 			<class name="com.nopcommerce.login.Level_08_Register_Login_Share_State_Part_2_Sort" />
 		</classes>
-	</test> --> 
+	</test>  -->
+
+ <!--  	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.common.Common_02_Cookies" />
+			<class name="com.nopcommerce.login.Level_09_Register_Login_Share_State_Part_3_Cookies" />
+		</classes>
+	</test>  -->
 	
- 		<test name="Run on Chrome">
+ 		<!-- <test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.nopcommerce.login.Level_05_Register_Login_Switch_Page" />
 			<class name="com.nopcommerce.login.Level_08_Register_Login_Share_State_Part_2_Sort" />
+		</classes>
+	</test>  -->
+	
+ 		<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.common.Common_02_Cookies" />
+			<class name="com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_1" />
+			<!-- <class name="com.nopcommerce.login.Level_10_Register_Login_Close_Browser_Part_2" /> -->
 		</classes>
 	</test> 
 
